@@ -1,4 +1,6 @@
 a= -1
-while a<0 and a>=-15:
-    print(a)
+while True :
+    print(a, "es impar negativo")
     a-=2
+    if a<-15:
+        break
